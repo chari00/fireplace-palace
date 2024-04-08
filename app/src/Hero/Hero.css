@@ -1,0 +1,63 @@
+.banner-container {
+  background-color: #e48806;
+  height: 150px;
+  width: auto;
+  display: flex;
+}
+.btn,
+a {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: black;
+  text-decoration: none;
+}
+#phone-number {
+  color: white;
+}
+.title {
+  font-size: 2.3rem;
+}
+.hero-img {
+  align-items: center;
+  width: 500px;
+  height: auto;
+}
+
+.btn {
+  background-color: black;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  width: 150px;
+  height: 60px;
+  transition: color 0.5s ease;
+}
+
+.btn:hover {
+  cursor: pointer;
+  color: #e6a346;
+}
+
+.btnContainer {
+  align-self: center;
+  justify-self: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .hero-banner {
+    display: flex;
+    float: left;
+    width: auto;
+    margin-left: 0;
+    margin-right: 10px;
+    margin-left: 8em;
+  }
+
+  .banner-container {
+    background-image: url("/images/hero-desktop.png");
+    background-color: #e48806;
+    height: 150px;
+    width: 350px;
+  }
+}

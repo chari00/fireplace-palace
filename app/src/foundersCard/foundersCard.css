@@ -1,0 +1,33 @@
+.services-founder {
+  font-size: 1.8rem;
+  margin-top: 25px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.card-text-founders {
+  font-size: 18pt;
+  margin-top: 10px;
+  margin-bottom: 0.5em;
+  width: 460px;
+  font-weight: 500;
+}
+.img {
+  width: 100%;
+  height: auto;
+}
+
+#card-1,
+#card-2,
+#card-3 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 1024px) {
+  .cardSection {
+    align-items: flex-start;
+    align-items: flex-end;
+    padding-left: 0;
+  }
+}

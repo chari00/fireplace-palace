@@ -1,0 +1,41 @@
+#main-title {
+  font-weight: 600;
+  text-decoration: none;
+  color: inherit;
+  color: black;
+  font-size: 14pt;
+}
+
+.founderBtn {
+  font-weight: 300;
+  font-size: 10pt;
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+}
+
+.menuContainer {
+  width: 20px;
+  height: 20px;
+}
+
+@media screen and (min-width: 1024px) {
+  #main-title {
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    font-size: 14pt;
+    margin-left: 8em;
+  }
+  header,
+  a {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+  }
+}

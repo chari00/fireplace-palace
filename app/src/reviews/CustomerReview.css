@@ -1,0 +1,47 @@
+.review-container {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.trusted {
+  font-size: 2em;
+  font-weight: bold;
+  color: #333;
+  margin: 15px;
+  border-bottom: 2px solid #efeaea;
+}
+
+.button-container {
+  margin-top: 20px;
+  width: auto;
+}
+
+.button-container button {
+  padding: 10px 20px;
+  font-size: 1em;
+  border: none;
+  background-color: hsl(200, 1%, 46%);
+  color: #fff;
+  cursor: pointer;
+  margin: 0 10px;
+  transition: background-color 0.3s ease;
+}
+
+.button-container button:hover {
+  background-color: #e48806;
+}
+.review {
+  background-color: #efeded;
+  border-radius: 8px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+p.name {
+  text-decoration: underline;
+  text-align: end;
+}
+
+.btnReview {
+  width: 100px;
+}
