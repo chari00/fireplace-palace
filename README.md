@@ -12,6 +12,7 @@
 - [Installation](#Installation)
 - [Configuration](#Configuration)
 - [Planning](#Planning)
+- [Deployed_Website_URL](#Deployed_Website_URL)
 - [Resources_links](#Resources_links)
 - [Feedback](#Feedback)
 - [License](#License)
@@ -64,28 +65,34 @@ If not, add the code above.
  **Fist phase**
   - Creating a landing page
 
-  ![landing page](app/src/images/Home-Mobile.png)
 
+<img width="350" src="app/src/images/Home-Mobile.png" alt="homepage"/>
 
 
  **Second phase**
   - Adding the founders page
 
-  ![Founders page](app/src/images/foundersImage/Founders-Mobile.png)
-
+<img width="350" src="app/src/images/foundersImage/Founders-Mobile.png" alt="founders"/>
 
 
  **Third phase**
   - Adding a booking form
 
-  ![booking form](<app/src/images/Bookings Form - Simple.png>)
+<img width="350" src="app/src/images/Bookings Form - Simple.png" alt="contact form"/>
 
 
 
  **Final phase**
   - Validate the booking form
 
-  ![validation](<app/src/images/Bookings Form - Complex.png>)
+<img width="350" src="app/src/images/Bookings Form - Complex.png" alt="form validation"/>
+
+----- 
+
+## Deployed_Website_URL
+
+- https://fireplace-palace.vercel.app/ 
+
 
 ----- 
 
