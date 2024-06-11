@@ -228,7 +228,7 @@ export default function Form() {
                 onChange={handleChange}
               ></input>
               {state.error ? (
-                <p id="err">*Email address must contain '@.com'*</p>
+                <p id="err">*Email address must contain `@.com`*</p>
               ) : null}
             </li>
           </ul>
