@@ -16,18 +16,25 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      # Example step that needs the Sentry token
-      - name: Setup Sentry
-        run: |
-          echo "Setting up Sentry"
-          export SENTRY_AUTH_TOKEN=${{ secrets.SENTRY_AUTH_TOKEN }}
-          # Your setup script here
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'  # Use the version of Node.js required for your project
 
       - name: Install dependencies
         run: npm install
 
+      - name: Build project
+        run: npm run build
+
       - name: Run tests
         run: npm test
 
-      - name: Build project
-        run: npm run build
+      - name: Upload source maps to Sentry
+        env:
+          SENTRY_AUTH_TOKEN: ${{ secrets.SENTRY_AUTH_TOKEN }}
+        run: |
+          npx sentry-cli releases new -p javascript-nextjs $GITHUB_SHA
+          npx sentry-cli releases set-commits --auto $GITHUB_SHA
+          npx sentry-cli releases files $GITHUB_SHA upload-sourcemaps ./build
+          npx sentry-cli releases finalize $GITHUB_SHA
