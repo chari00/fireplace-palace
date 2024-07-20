@@ -1,1 +1,33 @@
-SENTRY_AUTH_TOKEN=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
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      # Example step that needs the Sentry token
+      - name: Setup Sentry
+        run: |
+          echo "Setting up Sentry"
+          export SENTRY_AUTH_TOKEN=${{ secrets.SENTRY_AUTH_TOKEN }}
+          # Your setup script here
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run tests
+        run: npm test
+
+      - name: Build project
+        run: npm run build
