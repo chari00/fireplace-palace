@@ -1,7 +1,7 @@
 import Image from "next/image";
-import MikeAndMandy from "../src/images/foundersImage/founder-mike-and-mandy.png";
+import MikeAndMandy from "/public/images/foundersImage/founder-mike-and-mandy.png";
 import Link from "next/link";
-import FoundersCard from "../src/foundersCard/FoundersCard";
+import FoundersCard from "../foundersCard/FoundersCard";
 import "../founders/founder.css";
 
 export default function Founders() {

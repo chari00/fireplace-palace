@@ -1,6 +1,6 @@
-import howItWorks1 from "../images/how-it-works-1.png";
-import howItWorks2 from "../images/how-it-works-2.png";
-import howItWorks3 from "../images/how-it-works-3.png";
+import howItWorks1 from "/public/images/how-it-works-1.png";
+import howItWorks2 from "/public/images/how-it-works-2.png";
+import howItWorks3 from "/public/images/how-it-works-3.png";
 import Image from "next/image";
 
 import "../Cards/Card.css";

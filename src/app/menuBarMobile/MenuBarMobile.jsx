@@ -1,9 +1,9 @@
 "use client";
 import { useState } from "react";
-import "../menuBarMobile/MenuBarMobile.css";
+import "./MenuBarMobile.css";
 import Image from "next/image";
-import openButton from "../images/foundersImage/menu-open-button.png";
-import closeButton from "../images/foundersImage/menu-close-button.png";
+import openButton from "/public/images/foundersImage/menu-open-button.png";
+import closeButton from "/public/images/foundersImage/menu-close-button.png";
 import Link from "next/link";
 
 export default function MenuBarMobile() {

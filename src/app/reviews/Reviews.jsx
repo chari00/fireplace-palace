@@ -1,5 +1,5 @@
 /* eslint-disable react/jsx-key */
-import "../Reviews/Reviews.css";
+import "./Reviews.css";
 import { useState, useEffect } from "react";
 
 export default function Reviews() {

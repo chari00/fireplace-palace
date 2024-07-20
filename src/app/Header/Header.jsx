@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import "../Header/Header.css";
+import "./Header.css";
 import MenuBarMobile from "../menuBarMobile/MenuBarMobile";
 
 export default function Header() {

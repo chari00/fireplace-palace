@@ -1,6 +1,6 @@
 import Image from "next/image";
 import "../Hero/Hero.css";
-import heroImg from "../images/hero-mobile.png";
+import heroImg from "/public/images/hero-mobile.png";
 import Link from "next/link";
 
 export default function Hero() {
