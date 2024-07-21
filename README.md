@@ -75,8 +75,8 @@ As we do the planning for the project we focused on tackling one user criteria a
 - Creating a landing page
 <div style="display: flex; gap: 30px;">
 
-<img height= "700" width="220"  src="app/src/images/Home-Mobile.png" alt="homepage"/>
-<img height= "700" width="500"  src="app/src/images/first-phase.png" alt="first-phase"/>
+<img height= "700" width="220"  src="./public/images/Home-Mobile.png" alt="homepage"/>
+<img height= "700" width="500"  src="./public/images/first-phase.png" alt="first-phase"/>
 
 </div>
 
@@ -86,8 +86,8 @@ As we do the planning for the project we focused on tackling one user criteria a
 
 <div style="display: flex; gap: 30px;">
 
-<img height= "700" width="200"  src="app/src/images/foundersImage/Founders-Mobile.png" alt="founders"/>
-<img height= "700" width="500"  src="app/src/images/second-phase.png" alt="second-phase"/>
+<img height= "700" width="200"  src="./public/images/foundersImage/Founders-Mobile.png" alt="founders"/>
+<img height= "700" width="500"  src="./public/images/second-phase.png" alt="second-phase"/>
 
 </div>
 
@@ -97,8 +97,8 @@ As we do the planning for the project we focused on tackling one user criteria a
 
 <div style="display: flex; gap: 30px;">
 
-<img height= "700" width="200"  src="app/src/images/Bookings Form - Simple.png" alt="contact form"/>
-<img height= "700" width="500"  src="app/src/images/third-phase.png" alt="third-phase"/>
+<img height= "700" width="200"  src="./public/images/Bookings Form - Simple.png" alt="contact form"/>
+<img height= "700" width="500"  src="./public/images/third-phase.png" alt="third-phase"/>
 
 </div>
 
@@ -106,7 +106,7 @@ As we do the planning for the project we focused on tackling one user criteria a
 
 - Validate the booking form
 
-<img height= "700" width="200" src="app/src/images/Bookings Form - Complex.png" alt="form validation"/>
+<img height= "700" width="200" src="./public/images/Bookings Form - Complex.png" alt="form validation"/>
 
 ---
 
