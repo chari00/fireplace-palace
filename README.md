@@ -133,7 +133,7 @@ Here are for resources used as guid in building the Fireplace Palace web applica
 
 ## Feedback
 
-Click this [form](https://soc-hackathon-feedback.netlify.app/) for feedback and questions.
+Click this [form](https://feedback-form-mcc.netlify.app/) for feedback and questions.
 
 ---
 
