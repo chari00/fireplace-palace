@@ -1,9 +1,9 @@
 #main-title {
   font-weight: 600;
   text-decoration: none;
-  color: inherit;
+  /* color: inherit; */
   color: black;
-  font-size: 14pt;
+  font-size: 1rem;
 }
 
 .founderBtn {

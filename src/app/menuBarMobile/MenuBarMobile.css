@@ -1,13 +1,8 @@
 .mobile-menu-container {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
   z-index: 1000;
   display: flex;
-  justify-content: space-between; /* Add this to space the button and menu */
-  align-items: center; /* Center items vertically */
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .menu-container {

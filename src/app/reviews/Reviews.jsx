@@ -15,7 +15,7 @@ export default function Reviews() {
   }, [country]);
 
   return (
-    <>
+    <section >
       <button onClick={() => setCountry("England")}>England</button>
       <button onClick={() => setCountry("Scotland")}>Scotland</button>
       <button onClick={() => setCountry("Wales")}>Wales</button>
@@ -24,6 +24,6 @@ export default function Reviews() {
       {lists.map((list) => {
         return <pre>{JSON.stringify(list)}</pre>;
       })}
-    </>
+    </section>
   );
 }

@@ -7,8 +7,8 @@ import "../Cards/Card.css";
 
 export default function Card() {
   return (
-    <>
-      <main>
+   
+      <section className="card-container">
         <div id="cards-h2">
           <h2>How it works.</h2>
         </div>
@@ -37,7 +37,7 @@ export default function Card() {
             </p>
           </div>
         </section>
-      </main>
-    </>
+      </section>
+
   );
 }

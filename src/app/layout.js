@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <link rel="icon" href="/fire-icon.png" />
-      <body className={inter.className}>
+      <body className="${inter.className} flex flex-row">
         <Header />
         {children}
         <Footer />
